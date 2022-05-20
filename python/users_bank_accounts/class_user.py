@@ -51,5 +51,5 @@ spencer.make_withdrawal(22222)
 spencer.make_withdrawal(33333)
 
 ryan.make_transfer(5, spencer)
-ryan.current_balance
-spencer.current_balance
+ryan.current_balance()
+spencer.current_balance()
