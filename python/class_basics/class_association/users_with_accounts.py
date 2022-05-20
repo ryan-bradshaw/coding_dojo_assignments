@@ -31,7 +31,7 @@ class User:
         self.accounts[account_name].transfer(amount, target)
         return self
 
-    def account_balance(self, account_name):
+    def account_info(self, account_name):
         self.accounts[account_name].account_info()
         return self
 #----------------------------------------------------------------------
@@ -90,7 +90,7 @@ class BankAccount:
             print("$0.00 balance cannot accrue interest")
         return self
     
-    def account_info(self):
+    def account_details(self):
         # print("Account: " + self.account_name)
         print("Interest Rate: " + str(self.int_rate * 100)+"%")
         print("Current Balance: $" + str(self.balance))
