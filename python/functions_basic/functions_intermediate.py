@@ -1,7 +1,4 @@
 # Update Values in Dictionaries and Lists
-from importlib.metadata import entry_points
-
-
 x = [
     [5, 2, 3],
     [10, 8, 9]
