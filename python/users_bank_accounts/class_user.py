@@ -40,7 +40,6 @@ ryan.make_deposit(10000)
 ryan.make_withdrawal(500)
 ryan.current_balance()
 
-
 brad.make_deposit(5000)
 brad.make_deposit(10000)
 brad.make_withdrawal(300)
