@@ -28,7 +28,7 @@ class User:
         else:
             self.make_withdrawal(amount)
             recipient.account_balance += amount
-            print("$" + str(amount) + "has been transferred to " + recipient.name)
+            print("$" + str(amount) + " has been transferred to " + recipient.name)
 #-----------------------------------------
 ryan = User("Ryan")
 brad = User("Brad")
