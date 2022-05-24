@@ -28,3 +28,10 @@ if __name__ == "__main__":
 def invalid_url(e):
     return "Woops, that page does not exist!"
     #return render_template('404.html')
+
+# <!-- linking a css style sheet -->
+# <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/my_style.css') }}">
+# <!-- linking a javascript file -->
+# <script type="text/javascript" src="{{ url_for('static', filename='js/my_script.js') }}"></script>
+# <!-- linking an image -->
+# <img src="{{ url_for('static', filename='img/my_img.png') }}">
