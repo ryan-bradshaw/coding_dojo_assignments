@@ -13,6 +13,7 @@ def checkout():
 @app.route('/order')
 def order_summary():
     print(request.form)
+    return render_template('checkout.html')
 
 @app.route('/fruits')
 def fruits():
